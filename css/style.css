@@ -292,12 +292,15 @@
       position: fixed;
       inset: 0 0 auto;
       z-index: 202;
-      padding: 22px 0;
-      transition: background .35s, padding .3s, border-color .35s;
-      border-bottom: 1px solid transparent;
+      padding: 14px 0;
+      background: rgba(8,8,8,.97);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border-bottom: 1px solid rgba(255,255,255,.06);
+      transition: padding .3s;
     }
     #navbar.scrolled {
-      background: rgba(8,8,8,.93);
+      background: rgba(8,8,8,.97);
       backdrop-filter: blur(20px);
       -webkit-backdrop-filter: blur(20px);
       padding: 14px 0;
